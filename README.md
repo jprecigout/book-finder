@@ -2,7 +2,7 @@
 
 This project was a playground for Angular (Reactive forms, Component architecture), Typescript, Lodash
 
-![Screenshot of bookFinder]
+![Screenshot of bookFinder](https://github.com/jprecigout/book-finder/blob/master/src/assets/screenshot.png)
 
 
 ## Development server
