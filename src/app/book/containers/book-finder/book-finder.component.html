@@ -1,0 +1,19 @@
+<div class="app-book-finder">
+
+  <div class="title">
+    <h1>
+      <img src="/assets/books.png" width="64px">
+      Book List
+    </h1>
+  </div>
+  <div class="pane">
+    <app-book-form
+      [types]="types$ | async"
+      (search)="search($event)">
+    </app-book-form>
+    <br/>
+    <app-book-results
+      [books]="books$ | async" >
+    </app-book-results>
+  </div>
+</div>

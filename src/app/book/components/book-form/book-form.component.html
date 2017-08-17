@@ -1,0 +1,13 @@
+<form [formGroup]="form" (ngSubmit)="onSubmit()" class="book-form">
+
+  <app-type-selector
+    [types]="types"
+    [parent]="form"
+    [selectedTypes]="control.value"
+    (select)="selectType($event)">
+  </app-type-selector>
+
+  <app-book-search
+    [parent]="form">
+  </app-book-search>
+</form>

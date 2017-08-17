@@ -1,0 +1,35 @@
+.app-book-finder {
+  position: relative;
+  background: #fff;
+  box-shadow: 0 3px 4px rgba(0,0,0,.1);
+  border: 1px solid #c1cedb;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.app-book-finder .title {
+  background: #048888;
+  color: #fff;
+  padding: 10px 15px;
+}
+
+.app-book-finder .title h1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.app-book-finder .title h1 img {
+  width: 64px;
+  margin-right: 10px;
+}
+
+.app-book-finder .pane {
+    display: flex;
+    flex-direction: column
+}
+

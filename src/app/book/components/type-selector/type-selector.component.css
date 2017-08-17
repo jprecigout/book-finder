@@ -1,0 +1,27 @@
+.app-type-selector {
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.app-type-selector .item {
+    cursor: pointer;
+    background: #F68CA2; /* #D0E1B6; */
+    color: #fff;
+    padding: 6px;
+    text-align: center;
+    font-weight: 500;
+    border-radius: 3px;
+    margin: 2px 0;
+    flex: 0 0 15%;
+    text-transform: uppercase;
+    font-size: 12px;
+    transition: all .2s ease-in-out;
+}
+
+.app-type-selector .active {
+    background: #83192F; /* #68961b; */
+}
+
+

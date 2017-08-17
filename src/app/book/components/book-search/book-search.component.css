@@ -1,0 +1,12 @@
+.app-book-search {
+  padding: 30px;
+}
+
+.app-book-search input {
+  width: 100%;
+  border: 1px solid #1F9696;
+  padding: 10px 15px;
+  border-radius: 2px;
+  font-size: 14px;
+  outline: 0;
+}

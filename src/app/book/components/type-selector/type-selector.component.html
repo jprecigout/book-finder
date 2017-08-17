@@ -1,0 +1,9 @@
+<div class="app-type-selector">
+  <div 
+    class="item" 
+    *ngFor="let type of types"
+    [class.active]="isActive(type)"
+    (click)="onSelect(type)">
+      {{type}}
+  </div>
+</div>
